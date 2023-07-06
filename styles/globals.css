@@ -1,27 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Poppins:wght@200;300;400;500;600;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	font-family: 'Roboto', sans-serif;
+}
+
+.nextui-c-ewlcFW {
+	overflow: hidden;
+	padding: 30px;
+	margin: 0;
+}
+
+.nextui-c-iTPCAT-VujqA-disableBlur-false
+	.nextui-c-jklhtj:where(.nextui-c-ewlcFW) {
+	background: none;
+	backdrop-filter: none;
+}
+
+.nextui-c-gpbAMl .line {
+	height: 2px;
+}
+.nextui-c-gpbAMl .line {
+	height: 2px;
+}
+
+.nextui-c-gpbAMl {
+	height: 24px;
+	width: 24px;
 }

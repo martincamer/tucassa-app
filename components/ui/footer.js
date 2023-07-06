@@ -1,18 +1,8 @@
-import GoogleMapReact from 'google-map-react';
 import Image from 'next/image';
 import logo from '../../public/img/logo-tucassa-1.png';
 import Link from 'next/link';
 
-function Footer({ props }) {
-	const AnyReactComponent = ({ text }) => <div>{text}</div>;
-	const defaultProps = {
-		center: {
-			lat: 10.99835602,
-			lng: 77.01502627,
-		},
-		zoom: 11,
-	};
-
+function Footer() {
 	return (
 		<footer className="bg-gray-300">
 			<div className="w-[1220px] max-w-full mx-auto flex justify-around max-md:flex-col max-md:items-center max-md:gap-12 py-20">
